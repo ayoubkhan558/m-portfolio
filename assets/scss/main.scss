@@ -1,0 +1,17 @@
+/* global styles */
+body {
+    color: rgb(127, 82, 82);
+    display: flex;
+}
+/* global styles end */
+
+
+/* header */
+@import "./sections/header";
+/* my projects */
+@import "./sections/my-projects";
+/* services  */
+@import "./sections/services";
+/* footer  */
+@import "./sections/footer";
+

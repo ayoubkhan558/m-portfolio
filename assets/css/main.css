@@ -1,78 +1,35 @@
+/* global styles */
 body {
-    font-family: Poppins;
+  color: rgb(127, 82, 82);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.section-header {
-    margin-bottom: 50px;
+/* global styles end */
+/* header */
+.header {
+  background-color: gray;
+  padding: 15px;
 }
 
-.section-title {
-    font-weight: 600;
-    font-size: 65px;
-    line-height: 100%;
-    letter-spacing: 3%;
-    text-align: center;
-    margin-bottom: 4px;
+/* my projects */
+.my-projects {
+  background-color: green;
 }
 
-.section-text {
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 100%;
-    letter-spacing: 3%;
-    text-align: center;
-
-}
-
-.container {
-    margin: 0 auto;
-    max-width: 85%;
-}
-
-
-/* services section  */
-.services {}
-
+/* services  */
 .services .service-grid {
-    display: grid;
-    gap: 31px;
-    grid-template-columns: 1fr;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
 }
-
-@media (min-width: 768px) {
-    .services .service-grid {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (min-width: 1024px) {
-    .services .service-grid {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-}
-
 .services .service-grid .service-item {
-    border-radius: 14px;
-    background-color: #F3F3F3;
-    padding: 30px 18px;
+  background-color: gray;
 }
 
-.services .service-grid .service-item-img {}
-
-.services .service-grid .service-item-title {
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 100%;
-    letter-spacing: 3%;
-
+/* footer  */
+footer.footer {
+  padding: 25px;
 }
-
-.services .service-grid .service-item-text {
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 100%;
-    letter-spacing: 3%;
-
-}
-
-/* services section end */

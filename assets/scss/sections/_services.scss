@@ -1,0 +1,13 @@
+// SERVICES SECTION 
+.services {
+    .service-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+
+        .service-item {
+            background-color: gray;
+        }
+    }
+}
+// SERVICES SECTION END
